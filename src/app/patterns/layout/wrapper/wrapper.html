@@ -1,0 +1,10 @@
+<div class="layout" [ngClass]="{'is-active': layoutService.menuIsActive()}">
+  <app-topbar/>
+  <app-sidebar/>
+  <div class="layout-container">
+    <div class="layout-main">
+      <router-outlet/>
+    </div>
+  </div>
+  <div class="backdrop-container" (click)="toggleMenu()"></div>
+</div>

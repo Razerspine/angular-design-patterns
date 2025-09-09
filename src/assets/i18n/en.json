@@ -1,0 +1,14 @@
+{
+  "creational": {
+    "factory": {
+      "title": "Factory Method",
+      "description": "<b>Factory Method</b> — creational design pattern that defines a common interface for creating objects, allowing subclasses to decide which class to instantiate. Works with abstractions instead of concrete classes, simplifies extension and maintenance. <br><br>In the classical implementation, the pattern uses an <b>interface</b> that concrete classes implement. In this Angular example, we use an <b>abstract class</b> (<code>NotificationAbstract</code>) instead, because it allows us to define common properties (like <code>message</code>) and optionally provide shared methods while still enforcing a contract for subclasses.",
+      "step1": "<b>Step 1: Create Notification Framework</b><br>Define <code>NotificationAbstract</code> as a base for all notifications, declaring common methods like <code>show()</code>.",
+      "step2": "<b>Step 2: Develop SuccessNotification</b><br>Create <code>NotificationSuccess</code> class, extending <code>NotificationAbstract</code>, and implement <code>show()</code> for success messages.",
+      "step3": "<b>Step 3: Develop ErrorNotification</b><br>Create <code>NotificationError</code> class, extending <code>NotificationAbstract</code>, and implement <code>show()</code> for error messages.",
+      "step4": "<b>Step 4: Develop WarningNotification</b><br>Create <code>NotificationWarning</code> class, extending <code>NotificationAbstract</code>, and implement <code>show()</code> for warning messages.",
+      "step5": "<b>Step 5: Create NotificationFactory Service</b><br>Encapsulate creation logic depending on notification type in <code>NotificationFactoryService</code>.",
+      "step6": "<b>Step 6: Use Factory Pattern in Component</b><br>Demonstrate the Factory Method pattern in <code>FactoryPatternComponent</code>, working only with abstractions."
+    }
+  }
+}

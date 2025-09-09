@@ -1,0 +1,11 @@
+<div class="topbar">
+  <div class="topbar-column">
+    <p-button icon="pi pi-bars" class="mr-2" text severity="secondary" (click)="toggleMenu()"/>
+    <p-button icon="pi pi-home" class="mr-2" text severity="secondary" routerLink="/"></p-button>
+  </div>
+  <div class="topbar-column">
+    <p-select-button [(ngModel)]="selectedLang"
+                     (ngModelChange)="onChange()"
+                     [options]="languages" />
+  </div>
+</div>

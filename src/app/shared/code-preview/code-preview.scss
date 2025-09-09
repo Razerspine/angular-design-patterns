@@ -1,0 +1,26 @@
+.preview-container {
+  width: 100%;
+  position: relative;
+  margin-bottom: 2rem;
+
+  .code-description {
+    font-size: 16px;
+    line-height: 1.6;
+    word-break: break-word;
+    margin-bottom: 2rem;
+  }
+
+  .top-row {
+    background: #09090b;
+    border-bottom: 1px solid #3f3f46;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem 2rem;
+
+    .file-name {
+      font-size: 15px;
+    }
+  }
+}

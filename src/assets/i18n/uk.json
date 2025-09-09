@@ -1,0 +1,14 @@
+{
+  "creational": {
+    "factory": {
+      "title": "Фабричний метод",
+      "description": "<b>Фабричний метод</b> — шаблон проектування, що визначає загальний інтерфейс для створення об'єктів, дозволяючи підкласам вирішувати, який клас інстанціювати. Працює з абстракціями замість конкретних класів, спрощує розширення та обслуговування. <br><br>У класичній реалізації патерн використовує <b>інтерфейс</b>, який імплементують конкретні класи. У нашому прикладі на Angular ми використовуємо <b>абстрактний клас</b> (<code>NotificationAbstract</code>), оскільки він дозволяє визначати спільні властивості (наприклад, <code>message</code>) та при потребі надавати спільні методи, одночасно зберігаючи контракт для підкласів.",
+      "step1": "<b>Крок 1: Створити Notification Framework</b><br>Визначити <code>NotificationAbstract</code> як базу для всіх повідомлень, оголосити спільні методи, такі як <code>show()</code>.",
+      "step2": "<b>Крок 2: Реалізувати SuccessNotification</b><br>Створити клас <code>NotificationSuccess</code>, що розширює <code>NotificationAbstract</code>, та реалізувати <code>show()</code> для повідомлень про успіх.",
+      "step3": "<b>Крок 3: Реалізувати ErrorNotification</b><br>Створити клас <code>NotificationError</code>, що розширює <code>NotificationAbstract</code>, та реалізувати <code>show()</code> для повідомлень про помилку.",
+      "step4": "<b>Крок 4: Реалізувати WarningNotification</b><br>Створити клас <code>NotificationWarning</code>, що розширює <code>NotificationAbstract</code>, та реалізувати <code>show()</code> для повідомлень-попереджень.",
+      "step5": "<b>Крок 5: Створити сервіс NotificationFactory</b><br>Інкапсулювати логіку створення об’єктів залежно від типу повідомлення у <code>NotificationFactoryService</code>.",
+      "step6": "<b>Крок 6: Використати патерн у компоненті</b><br>Продемонструвати використання патерну Factory Method у <code>FactoryPatternComponent</code>, працюючи лише з абстракціями."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<div class="preview-container">
+  <div class="code-description" [innerHTML]="description() | transloco"></div>
+  <div class="top-row">
+    <span class="file-name">{{ fileName() }}</span>
+    <p-button icon="pi pi-copy"
+              label="Copy"
+              [text]="true"
+              severity="secondary"
+              (click)="copy()"
+    />
+  </div>
+  <pre><code [highlight]="code()" language="ts"></code></pre>
+</div>

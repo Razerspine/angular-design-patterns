@@ -1,0 +1,10 @@
+<section class="p-container">
+  <h2 class="p-title-h2">{{'creational.factory.title' | transloco}}</h2>
+  <div class="main-description" [innerHTML]="'creational.factory.description' | transloco"></div>
+  @for (preview of previewData(); track $index) {
+    <app-code-preview [code]="preview.file"
+                      [fileName]="preview.fileName"
+                      [description]="preview.previewDescription"
+    />
+  }
+</section>
