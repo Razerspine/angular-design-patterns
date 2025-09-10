@@ -12,18 +12,18 @@
     },
     "abstractFactory": {
       "title": "Абстрактна фабрика",
-      "description": "Абстрактна фабрика — це порожній шаблон проєктування, що надає інтерфейс для створення цілих сімейств пов'язаних об'єктів без вказівки їх конкретних класів.",
-      "step1": "Крок 1: Створіть абстрактний клас Button з методом render().",
-      "step2": "Крок 2: Створіть абстрактний клас Checkbox з методом render().",
-      "step3": "Крок 3: Реалізуйте LightButton, що наслідує ButtonAbstract і має власний метод render().",
-      "step4": "Крок 4: Реалізуйте LightCheckbox, що наслідує CheckboxAbstract і має власний метод render().",
-      "step5": "Крок 5: Реалізуйте DarkButton, що наслідує ButtonAbstract і має власний метод render().",
-      "step6": "Крок 6: Реалізуйте DarkCheckbox, що наслідує CheckboxAbstract і має власний метод render().",
-      "step7": "Крок 7: Створіть ThemeFactoryAbstract з методами для створення Button та Checkbox.",
-      "step8": "Крок 8: Реалізуйте LightFactory для створення LightButton та LightCheckbox.",
-      "step9": "Крок 9: Реалізуйте DarkFactory для створення DarkButton та DarkCheckbox.",
-      "step10": "Крок 10: Створіть AbstractFactoryService, що надає конкретну фабрику залежно від вибраної теми.",
-      "step11": "Крок 11: Створіть AbstractFactoryComponent, щоб продемонструвати створення елементів UI зі світлої та темної фабрики."
+      "description": "Абстрактна фабрика — це <b>шаблон проєктування</b>, що надає інтерфейс для створення цілих сімейств пов'язаних об'єктів без вказівки їх конкретних класів.",
+      "step1": "<b>Крок 1: Створіть абстрактний Button</b><br/>Оголосіть абстрактний клас Button з методом render().",
+      "step2": "<b>Крок 2: Створіть абстрактний Checkbox</b><br/>Оголосіть абстрактний клас Checkbox з методом render().",
+      "step3": "<b>Крок 3: Реалізуйте LightButton</b><br/>Наслідуйте ButtonAbstract і реалізуйте метод render() для світлої теми.",
+      "step4": "<b>Крок 4: Реалізуйте LightCheckbox</b><br/>Наслідуйте CheckboxAbstract і реалізуйте метод render() для світлої теми.",
+      "step5": "<b>Крок 5: Реалізуйте DarkButton</b><br/>Наслідуйте ButtonAbstract і реалізуйте метод render() для темної теми.",
+      "step6": "<b>Крок 6: Реалізуйте DarkCheckbox</b><br/>Наслідуйте CheckboxAbstract і реалізуйте метод render() для темної теми.",
+      "step7": "<b>Крок 7: Створіть ThemeFactoryAbstract</b><br/>Оголосіть методи для створення Button та Checkbox.",
+      "step8": "<b>Крок 8: Реалізуйте LightFactory</b><br/>Забезпечує створення LightButton та LightCheckbox.",
+      "step9": "<b>Крок 9: Реалізуйте DarkFactory</b><br/>Забезпечує створення DarkButton та DarkCheckbox.",
+      "step10": "<b>Крок 10: Створіть AbstractFactoryService</b><br/>Надає конкретну фабрику залежно від вибраної теми.",
+      "step11": "<b>Крок 11: Створіть AbstractFactoryComponent</b><br/>Демонструє створення UI-елементів зі світлої та темної фабрики."
     }
   }
 }

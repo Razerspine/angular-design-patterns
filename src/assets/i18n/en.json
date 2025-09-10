@@ -12,18 +12,18 @@
     },
     "abstractFactory": {
       "title": "Abstract Factory",
-      "description": "Abstract Factory is a creational design pattern that provides an interface for creating families of related objects without specifying their concrete classes.",
-      "step1": "Step 1: Define an abstract Button class declaring the render() method.",
-      "step2": "Step 2: Define an abstract Checkbox class declaring the render() method.",
-      "step3": "Step 3: Implement LightButton extending ButtonAbstract with its own render() method.",
-      "step4": "Step 4: Implement LightCheckbox extending CheckboxAbstract with its own render() method.",
-      "step5": "Step 5: Implement DarkButton extending ButtonAbstract with its own render() method.",
-      "step6": "Step 6: Implement DarkCheckbox extending CheckboxAbstract with its own render() method.",
-      "step7": "Step 7: Define ThemeFactoryAbstract declaring methods to create Button and Checkbox.",
-      "step8": "Step 8: Implement LightFactory to produce LightButton and LightCheckbox.",
-      "step9": "Step 9: Implement DarkFactory to produce DarkButton and DarkCheckbox.",
-      "step10": "Step 10: Create AbstractFactoryService to provide a specific factory based on the selected theme.",
-      "step11": "Step 11: Build AbstractFactoryComponent to demonstrate creating UI elements from Light or Dark factories."
+      "description": "Abstract Factory is a <b>creational design pattern</b> that provides an interface for creating families of related objects without specifying their concrete classes.",
+      "step1": "<b>Step 1: Define Abstract Button</b><br/>Create an abstract Button class declaring the render() method.",
+      "step2": "<b>Step 2: Define Abstract Checkbox</b><br/>Create an abstract Checkbox class declaring the render() method.",
+      "step3": "<b>Step 3: Implement LightButton</b><br/>Extend ButtonAbstract and implement the render() method for the light theme.",
+      "step4": "<b>Step 4: Implement LightCheckbox</b><br/>Extend CheckboxAbstract and implement the render() method for the light theme.",
+      "step5": "<b>Step 5: Implement DarkButton</b><br/>Extend ButtonAbstract and implement the render() method for the dark theme.",
+      "step6": "<b>Step 6: Implement DarkCheckbox</b><br/>Extend CheckboxAbstract and implement the render() method for the dark theme.",
+      "step7": "<b>Step 7: Define ThemeFactoryAbstract</b><br/>Declare methods to create Button and Checkbox.",
+      "step8": "<b>Step 8: Implement LightFactory</b><br/>Produce LightButton and LightCheckbox.",
+      "step9": "<b>Step 9: Implement DarkFactory</b><br/>Produce DarkButton and DarkCheckbox.",
+      "step10": "<b>Step 10: Create AbstractFactoryService</b><br/>Provide a specific factory based on the selected theme.",
+      "step11": "<b>Step 11: Build AbstractFactoryComponent</b><br/>Demonstrate creating UI elements from Light or Dark factories."
     }
   }
 }
