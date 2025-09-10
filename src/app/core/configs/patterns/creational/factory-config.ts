@@ -31,4 +31,4 @@ export const FACTORY_CONFIG: PatternDataType[] = [
     filePath: 'assets/patterns/creational/factory/factory-pattern.component.ts',
     previewDescription: 'creational.factory.step6'
   }
-]
+];

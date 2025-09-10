@@ -9,6 +9,21 @@
       "step4": "<b>Крок 4: Реалізувати WarningNotification</b><br>Створити клас <code>NotificationWarning</code>, що розширює <code>NotificationAbstract</code>, та реалізувати <code>show()</code> для повідомлень-попереджень.",
       "step5": "<b>Крок 5: Створити сервіс NotificationFactory</b><br>Інкапсулювати логіку створення об’єктів залежно від типу повідомлення у <code>NotificationFactoryService</code>.",
       "step6": "<b>Крок 6: Використати патерн у компоненті</b><br>Продемонструвати використання патерну Factory Method у <code>FactoryPatternComponent</code>, працюючи лише з абстракціями."
+    },
+    "abstractFactory": {
+      "title": "Абстрактна фабрика",
+      "description": "Абстрактна фабрика — це порожній шаблон проєктування, що надає інтерфейс для створення цілих сімейств пов'язаних об'єктів без вказівки їх конкретних класів.",
+      "step1": "Крок 1: Створіть абстрактний клас Button з методом render().",
+      "step2": "Крок 2: Створіть абстрактний клас Checkbox з методом render().",
+      "step3": "Крок 3: Реалізуйте LightButton, що наслідує ButtonAbstract і має власний метод render().",
+      "step4": "Крок 4: Реалізуйте LightCheckbox, що наслідує CheckboxAbstract і має власний метод render().",
+      "step5": "Крок 5: Реалізуйте DarkButton, що наслідує ButtonAbstract і має власний метод render().",
+      "step6": "Крок 6: Реалізуйте DarkCheckbox, що наслідує CheckboxAbstract і має власний метод render().",
+      "step7": "Крок 7: Створіть ThemeFactoryAbstract з методами для створення Button та Checkbox.",
+      "step8": "Крок 8: Реалізуйте LightFactory для створення LightButton та LightCheckbox.",
+      "step9": "Крок 9: Реалізуйте DarkFactory для створення DarkButton та DarkCheckbox.",
+      "step10": "Крок 10: Створіть AbstractFactoryService, що надає конкретну фабрику залежно від вибраної теми.",
+      "step11": "Крок 11: Створіть AbstractFactoryComponent, щоб продемонструвати створення елементів UI зі світлої та темної фабрики."
     }
   }
 }

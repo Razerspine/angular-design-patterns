@@ -16,6 +16,12 @@ export const routes: Routes = [
             .then(m => m.Factory),
       },
       {
+        path: 'creational/abstract-factory',
+        loadComponent: () =>
+          import('@patterns/creational/abstract-factory/abstract-factory')
+            .then(m => m.AbstractFactory),
+      },
+      {
         path: 'structural/adapter',
         loadComponent: () =>
           import('@patterns/structural/adapter/adapter')

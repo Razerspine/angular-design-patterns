@@ -10,7 +10,7 @@ export const MenuConfig: MenuItem[] = [
       },
       {
         label: 'Abstract Factory',
-        routerLink: ['/creational/factory']
+        routerLink: ['/creational/abstract-factory']
 
       },
       {

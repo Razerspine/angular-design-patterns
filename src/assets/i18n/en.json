@@ -9,6 +9,21 @@
       "step4": "<b>Step 4: Develop WarningNotification</b><br>Create <code>NotificationWarning</code> class, extending <code>NotificationAbstract</code>, and implement <code>show()</code> for warning messages.",
       "step5": "<b>Step 5: Create NotificationFactory Service</b><br>Encapsulate creation logic depending on notification type in <code>NotificationFactoryService</code>.",
       "step6": "<b>Step 6: Use Factory Pattern in Component</b><br>Demonstrate the Factory Method pattern in <code>FactoryPatternComponent</code>, working only with abstractions."
+    },
+    "abstractFactory": {
+      "title": "Abstract Factory",
+      "description": "Abstract Factory is a creational design pattern that provides an interface for creating families of related objects without specifying their concrete classes.",
+      "step1": "Step 1: Define an abstract Button class declaring the render() method.",
+      "step2": "Step 2: Define an abstract Checkbox class declaring the render() method.",
+      "step3": "Step 3: Implement LightButton extending ButtonAbstract with its own render() method.",
+      "step4": "Step 4: Implement LightCheckbox extending CheckboxAbstract with its own render() method.",
+      "step5": "Step 5: Implement DarkButton extending ButtonAbstract with its own render() method.",
+      "step6": "Step 6: Implement DarkCheckbox extending CheckboxAbstract with its own render() method.",
+      "step7": "Step 7: Define ThemeFactoryAbstract declaring methods to create Button and Checkbox.",
+      "step8": "Step 8: Implement LightFactory to produce LightButton and LightCheckbox.",
+      "step9": "Step 9: Implement DarkFactory to produce DarkButton and DarkCheckbox.",
+      "step10": "Step 10: Create AbstractFactoryService to provide a specific factory based on the selected theme.",
+      "step11": "Step 11: Build AbstractFactoryComponent to demonstrate creating UI elements from Light or Dark factories."
     }
   }
 }
