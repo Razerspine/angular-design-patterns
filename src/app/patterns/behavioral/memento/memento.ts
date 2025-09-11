@@ -2,11 +2,11 @@ import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
 @Component({
-  selector: 'app-adapter',
-  standalone: true,
+  selector: 'app-memento',
   imports: [CommonModule],
-  templateUrl: './adapter.html',
-  styleUrl: './adapter.scss'
+  templateUrl: './memento.html',
+  styleUrl: './memento.scss'
 })
-export class Adapter {
+export class Memento {
+
 }

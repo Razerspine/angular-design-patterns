@@ -2,11 +2,11 @@ import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
 @Component({
-  selector: 'app-adapter',
-  standalone: true,
+  selector: 'app-mediator',
   imports: [CommonModule],
-  templateUrl: './adapter.html',
-  styleUrl: './adapter.scss'
+  templateUrl: './mediator.html',
+  styleUrl: './mediator.scss'
 })
-export class Adapter {
+export class Mediator {
+
 }

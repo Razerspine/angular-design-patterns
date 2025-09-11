@@ -2,11 +2,11 @@ import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
 @Component({
-  selector: 'app-adapter',
-  standalone: true,
+  selector: 'app-bridge',
   imports: [CommonModule],
-  templateUrl: './adapter.html',
-  styleUrl: './adapter.scss'
+  templateUrl: './bridge.html',
+  styleUrl: './bridge.scss'
 })
-export class Adapter {
+export class Bridge {
+
 }

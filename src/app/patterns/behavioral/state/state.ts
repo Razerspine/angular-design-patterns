@@ -2,11 +2,11 @@ import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
 @Component({
-  selector: 'app-adapter',
-  standalone: true,
+  selector: 'app-state',
   imports: [CommonModule],
-  templateUrl: './adapter.html',
-  styleUrl: './adapter.scss'
+  templateUrl: './state.html',
+  styleUrl: './state.scss'
 })
-export class Adapter {
+export class State {
+
 }

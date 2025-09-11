@@ -2,11 +2,11 @@ import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
 @Component({
-  selector: 'app-adapter',
-  standalone: true,
+  selector: 'app-iterator',
   imports: [CommonModule],
-  templateUrl: './adapter.html',
-  styleUrl: './adapter.scss'
+  templateUrl: './iterator.html',
+  styleUrl: './iterator.scss'
 })
-export class Adapter {
+export class Iterator {
+
 }

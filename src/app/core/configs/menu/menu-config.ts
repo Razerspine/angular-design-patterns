@@ -15,7 +15,7 @@ export const MenuConfig: MenuItem[] = [
       },
       {
         label: 'Builder',
-        routerLink: ['creational/builder']
+        routerLink: ['/creational/builder']
       },
       {
         label: 'Prototype',
@@ -35,31 +35,31 @@ export const MenuConfig: MenuItem[] = [
     items: [
       {
         label: 'Adapter',
-        routerLink: ['/creational/factory']
+        routerLink: ['/structural/adapter']
       },
       {
         label: 'Bridge',
-        routerLink: ['/creational/factory']
+        routerLink: ['/structural/bridge']
       },
       {
         label: 'Composite',
-        routerLink: ['/creational/factory']
+        routerLink: ['/structural/composite']
       },
       {
         label: 'Decorator',
-        routerLink: ['/creational/factory']
+        routerLink: ['/structural/decorator']
       },
       {
         label: 'Facade',
-        routerLink: ['/creational/factory']
+        routerLink: ['/structural/facade']
       },
       {
         label: 'Flyweight',
-        routerLink: ['/creational/factory']
+        routerLink: ['/structural/flyweight']
       },
       {
         label: 'Proxy',
-        routerLink: ['/creational/factory']
+        routerLink: ['/structural/proxy']
       }
     ]
   },
@@ -71,43 +71,43 @@ export const MenuConfig: MenuItem[] = [
     items: [
       {
         label: 'Chain of Responsibility',
-        routerLink: ['/creational/factory']
+        routerLink: ['/behavioral/chain-of-responsibility']
       },
       {
         label: 'Command',
-        routerLink: ['/creational/factory']
+        routerLink: ['/behavioral/command']
       },
       {
         label: 'Iterator',
-        routerLink: ['/creational/factory']
+        routerLink: ['/behavioral/iterator']
       },
       {
         label: 'Mediator',
-        routerLink: ['/creational/factory']
+        routerLink: ['/behavioral/mediator']
       },
       {
         label: 'Memento',
-        routerLink: ['/creational/factory']
+        routerLink: ['/behavioral/memento']
       },
       {
         label: 'Observer',
-        routerLink: ['/creational/factory']
+        routerLink: ['/behavioral/observer']
       },
       {
         label: 'State',
-        routerLink: ['/creational/factory']
+        routerLink: ['/behavioral/state']
       },
       {
         label: 'Strategy',
-        routerLink: ['/creational/factory']
+        routerLink: ['/behavioral/strategy']
       },
       {
         label: 'Template Method',
-        routerLink: ['/creational/factory']
+        routerLink: ['/behavioral/template-method']
       },
       {
         label: 'Visitor',
-        routerLink: ['/creational/factory']
+        routerLink: ['/behavioral/visitor']
       }
     ]
   }
