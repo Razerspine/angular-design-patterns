@@ -19,11 +19,11 @@ export const MenuConfig: MenuItem[] = [
       },
       {
         label: 'Prototype',
-        routerLink: ['/creational/factory']
+        routerLink: ['/creational/prototype']
       },
       {
         label: 'Singleton',
-        routerLink: ['/creational/factory']
+        routerLink: ['/creational/singleton']
       }
     ]
   },

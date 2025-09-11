@@ -33,6 +33,15 @@
       "step3": "<b>Step 3: Implement Concrete Builder</b><br>Implement <code>SimpleCardBuilder</code> that sets each property of the card.",
       "step4": "<b>Step 4: Add Director</b><br>Create <code>CardDirector</code> that builds a predefined card (e.g., product card).",
       "step5": "<b>Step 5: Use in Angular Component</b><br>Demonstrate card building in <code>BuilderPatternComponent</code>."
+    },
+    "prototype": {
+      "title": "Prototype",
+      "description": "<b>Prototype</b> — creational design pattern that lets you copy existing objects without making your code dependent on their concrete classes. It is especially useful when creating a new instance is costly or complex. <br><br>In this Angular example, we create and clone <b>user profiles</b> (Admin, Guest) using the <code>clone()</code> method.",
+      "step1": "<b>Step 1: Define Prototype Base</b><br>Create <code>UserProfilePrototype</code> with the <code>clone()</code> method and common properties.",
+      "step2": "<b>Step 2: Create AdminProfile</b><br>Extend <code>UserProfilePrototype</code> and implement the <code>clone()</code> method for admins.",
+      "step3": "<b>Step 3: Create GuestProfile</b><br>Extend <code>UserProfilePrototype</code> and implement the <code>clone()</code> method for guests.",
+      "step4": "<b>Step 4: Add Service</b><br>Use <code>UserProfileService</code> to create and clone profiles.",
+      "step5": "<b>Step 5: Use in Component</b><br>Demonstrate creating and cloning profiles in <code>PrototypePatternComponent</code>."
     }
   }
 }

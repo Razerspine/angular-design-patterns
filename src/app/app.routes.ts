@@ -28,6 +28,12 @@ export const routes: Routes = [
             .then(m => m.Builder),
       },
       {
+        path: 'creational/prototype',
+        loadComponent: () =>
+          import('@patterns/creational/prototype/prototype')
+            .then(m => m.Prototype),
+      },
+      {
         path: 'structural/adapter',
         loadComponent: () =>
           import('@patterns/structural/adapter/adapter')
