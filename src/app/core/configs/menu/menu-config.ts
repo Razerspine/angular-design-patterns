@@ -15,7 +15,7 @@ export const MenuConfig: MenuItem[] = [
       },
       {
         label: 'Builder',
-        routerLink: ['/creational/factory']
+        routerLink: ['creational/builder']
       },
       {
         label: 'Prototype',

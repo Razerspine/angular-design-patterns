@@ -24,6 +24,15 @@
       "step9": "<b>Step 9: Implement DarkFactory</b><br/>Produce DarkButton and DarkCheckbox.",
       "step10": "<b>Step 10: Create AbstractFactoryService</b><br/>Provide a specific factory based on the selected theme.",
       "step11": "<b>Step 11: Build AbstractFactoryComponent</b><br/>Demonstrate creating UI elements from Light or Dark factories."
+    },
+    "builder": {
+      "title": "Builder",
+      "description": "<b>Builder</b> — creational design pattern that allows constructing complex objects step by step. Instead of passing all parameters into a constructor, Builder provides a fluent API for building objects gradually. <br><br>In classical implementations, Builder is often used for assembling objects like documents or configurations. In our Angular example, we use it to build a <b>UI card</b> step by step.",
+      "step1": "<b>Step 1: Define Card Model</b><br>Create <code>Card</code> interface with optional properties: <code>title</code>, <code>description</code>, <code>image</code>, <code>button</code>.",
+      "step2": "<b>Step 2: Define Abstract Builder</b><br>Create <code>CardBuilderAbstract</code> with methods for title, description, image, and button.",
+      "step3": "<b>Step 3: Implement Concrete Builder</b><br>Implement <code>SimpleCardBuilder</code> that sets each property of the card.",
+      "step4": "<b>Step 4: Add Director</b><br>Create <code>CardDirector</code> that builds a predefined card (e.g., product card).",
+      "step5": "<b>Step 5: Use in Angular Component</b><br>Demonstrate card building in <code>BuilderPatternComponent</code>."
     }
   }
 }

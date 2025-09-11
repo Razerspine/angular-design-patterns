@@ -22,6 +22,12 @@ export const routes: Routes = [
             .then(m => m.AbstractFactory),
       },
       {
+        path: 'creational/builder',
+        loadComponent: () =>
+          import('@patterns/creational/builder/builder')
+            .then(m => m.Builder),
+      },
+      {
         path: 'structural/adapter',
         loadComponent: () =>
           import('@patterns/structural/adapter/adapter')
