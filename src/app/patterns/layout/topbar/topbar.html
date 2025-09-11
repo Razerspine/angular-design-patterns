@@ -4,8 +4,10 @@
     <p-button icon="pi pi-home" class="mr-2" text severity="secondary" routerLink="/"></p-button>
   </div>
   <div class="topbar-column">
-    <p-select-button [(ngModel)]="selectedLang"
-                     (ngModelChange)="onChange()"
-                     [options]="languages" />
+    <p-select [(ngModel)]="selectedLang"
+              (ngModelChange)="onChange()"
+              [options]="languages"
+              size="small"
+    />
   </div>
 </div>
