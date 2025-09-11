@@ -34,6 +34,12 @@ export const routes: Routes = [
             .then(m => m.Prototype),
       },
       {
+        path: 'creational/singleton',
+        loadComponent: () =>
+          import('@patterns/creational/singleton/singleton')
+            .then(m => m.Singleton),
+      },
+      {
         path: 'structural/adapter',
         loadComponent: () =>
           import('@patterns/structural/adapter/adapter')

@@ -42,6 +42,13 @@
       "step3": "<b>Step 3: Create GuestProfile</b><br>Extend <code>UserProfilePrototype</code> and implement the <code>clone()</code> method for guests.",
       "step4": "<b>Step 4: Add Service</b><br>Use <code>UserProfileService</code> to create and clone profiles.",
       "step5": "<b>Step 5: Use in Component</b><br>Demonstrate creating and cloning profiles in <code>PrototypePatternComponent</code>."
+    },
+    "singleton": {
+      "title": "Singleton",
+      "description": "<b>Singleton</b> — creational design pattern that ensures a class has only one instance and provides a global point of access to it. <br><br>In this Angular example, we implement a <b>Logger</b> that keeps a single shared instance across the app.",
+      "step1": "<b>Step 1: Create Singleton</b><br>Define <code>Logger</code> class with a private constructor and a static <code>getInstance()</code> method.",
+      "step2": "<b>Step 2: Wrap with Service</b><br>Use <code>LoggerService</code> to interact with the singleton in Angular context.",
+      "step3": "<b>Step 3: Use in Component</b><br>Demonstrate logging messages in <code>SingletonPatternComponent</code>, showing that all logs come from the same instance."
     }
   }
 }
