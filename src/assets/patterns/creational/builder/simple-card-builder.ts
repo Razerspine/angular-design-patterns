@@ -1,4 +1,4 @@
-import { CardBuilderAbstract } from './card-builder.abstract';
+import {CardBuilderAbstract} from './card-builder.abstract';
 
 export class SimpleCardBuilder extends CardBuilderAbstract {
   setTitle(title: string): this {
