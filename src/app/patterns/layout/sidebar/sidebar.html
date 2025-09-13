@@ -1,3 +1,8 @@
 <div class="sidebar">
-  <p-menu [model]="items"/>
+  <div class="button-wrapper">
+    <p-button icon="pi pi-times" class="close-button" text severity="secondary" (click)="toggleMenu()"/>
+  </div>
+  <div class="menu-wrapper">
+    <p-menu [model]="items"/>
+  </div>
 </div>
