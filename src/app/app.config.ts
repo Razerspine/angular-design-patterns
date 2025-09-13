@@ -39,8 +39,7 @@ export const appConfig: ApplicationConfig = {
       lineNumbersLoader: () => import('ngx-highlightjs/line-numbers'),
       languages: {
         typescript: () => import('highlight.js/lib/languages/typescript'),
-      },
-      themePath: 'assets/styles/github-dark.scss',
+      }
     }),
     provideTransloco({
       config: transLocoConfigFactory(),
