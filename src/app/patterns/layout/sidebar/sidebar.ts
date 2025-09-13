@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {Menu} from 'primeng/menu';
 import {MenuItem} from 'primeng/api';
-import {MenuConfig} from '@core/configs/menu/menu-config';
+import {MENU_CONFIG} from '@core/configs/menu';
 
 @Component({
   selector: 'app-sidebar',
@@ -12,5 +12,5 @@ import {MenuConfig} from '@core/configs/menu/menu-config';
   styleUrl: './sidebar.scss'
 })
 export class Sidebar {
-  items: MenuItem[] = MenuConfig;
+  protected readonly items: MenuItem[] = MENU_CONFIG;
 }
