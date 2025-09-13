@@ -1,13 +1,10 @@
-import { Component } from '@angular/core';
-import {ButtonDirective, ButtonLabel} from 'primeng/button';
+import {Component} from '@angular/core';
 import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-main',
   imports: [
-    ButtonDirective,
     RouterLink,
-    ButtonLabel
   ],
   templateUrl: './main.html',
   styleUrl: './main.scss'

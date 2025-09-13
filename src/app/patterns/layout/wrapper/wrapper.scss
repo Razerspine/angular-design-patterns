@@ -4,7 +4,7 @@
 
 .layout-main {
   background: var(--surface-card);
-  padding: 2rem;
+  padding: 1rem;
   border-radius: var(--content-border-radius);
   min-height: calc(100vh - 6rem);
   @media screen and (min-width: 992px) {
@@ -17,8 +17,11 @@
   flex-direction: column;
   min-height: 100vh;
   justify-content: space-between;
-  padding: 6rem 2rem 0;
+  padding: 5rem 1rem 0;
   transition: margin-left var(--layout-section-transition-duration);
+  @media screen and (min-width: 768px) {
+    padding: 6rem 2rem 0;
+  }
   @media screen and (min-width: 992px) {
     margin-left: 22rem;
   }
