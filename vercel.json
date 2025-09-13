@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/angular-design-patterns",
+  "outputDirectory": "dist/angular-design-patterns/browser",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
