@@ -59,6 +59,16 @@
       "step2": "<b>Крок 2: Додати Adaptee (ThirdPartyLogger)</b><br>Імітувати сторонній логер із методами <code>writeInfo()</code> та <code>writeError()</code>.",
       "step3": "<b>Крок 3: Реалізувати Adapter (LoggerAdapterService)</b><br>Обгорнути <code>ThirdPartyLogger</code>, щоб він відповідав інтерфейсу <code>Logger</code>.",
       "step4": "<b>Крок 4: Використати Adapter у компоненті</b><br>Інжектити <code>LoggerAdapterService</code> у компонент і логувати повідомлення без залежності від стороннього API."
+    },
+    "bridge": {
+      "title": "Міст (Bridge)",
+      "description": "<b>Міст</b> — структурний шаблон проектування, що розділяє абстракцію та її реалізацію, дозволяючи їм змінюватися незалежно. <br><br>Використовується, коли потрібно уникнути жорсткого зв’язку між абстракцією та реалізацією і мати можливість підміняти реалізації під час виконання.",
+      "step1": "<b>Крок 1: Визначити інтерфейс реалізації</b><br>Створити <code>MessageImplementor</code> із методом <code>showMessage(message: string)</code>.",
+      "step2": "<b>Крок 2: Реалізувати ConsoleMessageService</b><br>Створити <code>ConsoleMessageService</code>, який реалізує <code>MessageImplementor</code> і виводить повідомлення в консоль.",
+      "step3": "<b>Крок 3: Реалізувати AlertMessageService</b><br>Створити <code>AlertMessageService</code>, який реалізує <code>MessageImplementor</code> і показує повідомлення через <code>alert()</code> (або інший UI-канал).",
+      "step4": "<b>Крок 4: Визначити абстракцію (Message)</b><br>Створити абстрактний клас <code>Message</code>, що тримає посилання на <code>MessageImplementor</code> та декларує метод <code>send(content: string)</code>.",
+      "step5": "<b>Крок 5: Реалізувати уточнену абстракцію</b><br>Реалізувати <code>UserMessage</code> (або інші конкретні абстракції), які використовують реалізатор для доставки повідомлень.",
+      "step6": "<b>Крок 6: Використати у компоненті</b><br>У <code>BridgeComponent</code> інстанціювати конкретні реалізації та передавати їх у абстракцію, щоб надіслати повідомлення (показати підміну реалізації)."
     }
   }
 }

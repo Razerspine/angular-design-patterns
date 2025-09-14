@@ -59,6 +59,16 @@
       "step2": "<b>Step 2: Introduce Adaptee (ThirdPartyLogger)</b><br>Simulate a third-party logger with different method names (<code>writeInfo()</code>, <code>writeError()</code>).",
       "step3": "<b>Step 3: Implement Adapter (LoggerAdapterService)</b><br>Wrap <code>ThirdPartyLogger</code> so it conforms to <code>Logger</code> interface.",
       "step4": "<b>Step 4: Use Adapter in Component</b><br>Inject <code>LoggerAdapterService</code> into a component and log messages without depending on third-party API."
+    },
+    "bridge": {
+      "title": "Bridge",
+      "description": "<b>Bridge</b> — structural design pattern that decouples an abstraction from its implementation so the two can vary independently. <br><br>Use when you want to avoid a permanent binding between an abstraction and its implementation and be able to switch implementations at runtime.",
+      "step1": "<b>Step 1: Define Implementor Interface</b><br>Create <code>MessageImplementor</code> interface that declares <code>showMessage(message: string)</code>.",
+      "step2": "<b>Step 2: Implement ConsoleMessageService</b><br>Create <code>ConsoleMessageService</code> that implements <code>MessageImplementor</code> and writes messages to the console.",
+      "step3": "<b>Step 3: Implement AlertMessageService</b><br>Create <code>AlertMessageService</code> that implements <code>MessageImplementor</code> and shows messages via <code>alert()</code> (or any UI mechanism).",
+      "step4": "<b>Step 4: Define Abstraction (Message)</b><br>Create abstract <code>Message</code> class that holds a reference to <code>MessageImplementor</code> and declares <code>send(content: string)</code>.",
+      "step5": "<b>Step 5: Implement Refined Abstraction</b><br>Implement <code>UserMessage</code> (or other concrete abstractions) that use the implementor to deliver messages.",
+      "step6": "<b>Step 6: Use in Component</b><br>In <code>BridgeComponent</code> instantiate concrete implementor(s) and pass them into the abstraction to send messages (demonstrate switching implementations)."
     }
   }
 }
