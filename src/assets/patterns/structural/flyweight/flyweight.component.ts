@@ -1,5 +1,5 @@
-import { Component as NgComponent } from '@angular/core';
-import { CharacterFactory } from './character-factory';
+import {Component as NgComponent} from '@angular/core';
+import {CharacterFactory} from './character-factory';
 
 @NgComponent({
   selector: 'app-flyweight-pattern',

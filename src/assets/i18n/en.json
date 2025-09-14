@@ -103,6 +103,14 @@
       "step1": "<b>Step 1: Create Character class</b><br>Class <code>Character</code> stores intrinsic data (symbol, font) and provides a <code>display()</code> method.",
       "step2": "<b>Step 2: Implement CharacterFactory</b><br>Factory ensures that characters with the same symbol and font are reused instead of being recreated.",
       "step3": "<b>Step 3: Use in Component</b><br>Demonstrate <code>Flyweight</code> in <code>FlyweightComponent</code> by rendering text with shared characters."
+    },
+    "proxy": {
+      "title": "Proxy",
+      "description": "<b>Proxy</b> — structural design pattern that provides a substitute or placeholder for another object to control access to it. <br><br>Proxy is often used for caching, lazy initialization, or access control.",
+      "step1": "<b>Step 1: Define VideoService interface</b><br>Declares the common interface for Real and Proxy services.",
+      "step2": "<b>Step 2: Create RealVideoService</b><br>Implements actual video playback.",
+      "step3": "<b>Step 3: Implement VideoServiceProxy</b><br>Adds caching functionality and delegates playback to RealVideoService when needed.",
+      "step4": "<b>Step 4: Use in Component</b><br>Demonstrates caching when the same video is played multiple times."
     }
   }
 }
