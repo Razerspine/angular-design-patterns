@@ -50,5 +50,15 @@
       "step2": "<b>Крок 2: Обгорнути у сервіс</b><br>Використати <code>LoggerService</code> для роботи з сінглтоном у контексті Angular.",
       "step3": "<b>Крок 3: Використати у компоненті</b><br>Продемонструвати логування повідомлень у <code>SingletonPatternComponent</code>, показавши, що всі логи походять з одного екземпляра."
     }
+  },
+  "structural": {
+    "adapter": {
+      "title": "Адаптер",
+      "description": "<b>Адаптер</b> — структурний шаблон проектування, який дозволяє працювати разом об’єктам із несумісними інтерфейсами. У цьому прикладі на Angular <code>LoggerAdapterService</code> робить сторонній логер (<code>ThirdPartyLogger</code>) сумісним із нашим інтерфейсом <code>Logger</code>.",
+      "step1": "<b>Крок 1: Визначити Target (Logger interface)</b><br>Створити інтерфейс <code>Logger</code> із методами <code>log()</code> та <code>error()</code>.",
+      "step2": "<b>Крок 2: Додати Adaptee (ThirdPartyLogger)</b><br>Імітувати сторонній логер із методами <code>writeInfo()</code> та <code>writeError()</code>.",
+      "step3": "<b>Крок 3: Реалізувати Adapter (LoggerAdapterService)</b><br>Обгорнути <code>ThirdPartyLogger</code>, щоб він відповідав інтерфейсу <code>Logger</code>.",
+      "step4": "<b>Крок 4: Використати Adapter у компоненті</b><br>Інжектити <code>LoggerAdapterService</code> у компонент і логувати повідомлення без залежності від стороннього API."
+    }
   }
 }

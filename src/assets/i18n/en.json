@@ -50,5 +50,15 @@
       "step2": "<b>Step 2: Wrap with Service</b><br>Use <code>LoggerService</code> to interact with the singleton in Angular context.",
       "step3": "<b>Step 3: Use in Component</b><br>Demonstrate logging messages in <code>SingletonPatternComponent</code>, showing that all logs come from the same instance."
     }
+  },
+  "structural": {
+    "adapter": {
+      "title": "Adapter",
+      "description": "<b>Adapter</b> — structural design pattern that allows incompatible interfaces to work together. In this Angular example, <code>LoggerAdapterService</code> makes a third-party logger (<code>ThirdPartyLogger</code>) compatible with our <code>Logger</code> interface.",
+      "step1": "<b>Step 1: Define Target (Logger interface)</b><br>Create a <code>Logger</code> interface with <code>log()</code> and <code>error()</code> methods.",
+      "step2": "<b>Step 2: Introduce Adaptee (ThirdPartyLogger)</b><br>Simulate a third-party logger with different method names (<code>writeInfo()</code>, <code>writeError()</code>).",
+      "step3": "<b>Step 3: Implement Adapter (LoggerAdapterService)</b><br>Wrap <code>ThirdPartyLogger</code> so it conforms to <code>Logger</code> interface.",
+      "step4": "<b>Step 4: Use Adapter in Component</b><br>Inject <code>LoggerAdapterService</code> into a component and log messages without depending on third-party API."
+    }
   }
 }
