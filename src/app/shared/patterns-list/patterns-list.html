@@ -1,0 +1,18 @@
+@if (data()) {
+  @for (list of data(); track list) {
+    <section class="p-container">
+      <h2 class="p-title bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
+        {{list.label}}
+      </h2>
+      @if (list.items) {
+        <div class="p-list">
+          @for (item of list.items; track item) {
+            <a class="p-item" [routerLink]="item.routerLink">
+              {{item.label}}
+            </a>
+          }
+        </div>
+      }
+    </section>
+  }
+}
