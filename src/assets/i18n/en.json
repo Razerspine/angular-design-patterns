@@ -77,6 +77,16 @@
       "step2": "<b>Step 2: Implement Leaf</b><br>Create <code>Leaf</code> class that implements <code>Component</code> and represents indivisible objects.",
       "step3": "<b>Step 3: Implement Composite</b><br>Create <code>Composite</code> class that stores children and implements <code>operation()</code> by delegating to them.",
       "step4": "<b>Step 4: Use in Component</b><br>Build a tree of <code>Leaf</code> and <code>Composite</code> objects and call <code>operation()</code>."
+    },
+    "decorator": {
+      "title": "Decorator",
+      "description": "<b>Decorator</b> — structural design pattern that allows you to dynamically add new behavior to objects by placing them inside special wrapper objects. <br><br>This makes it possible to extend functionality without modifying existing code.",
+      "step1": "<b>Step 1: Define Notifier interface</b><br>Create <code>Notifier</code> with method <code>send(message: string)</code>.",
+      "step2": "<b>Step 2: Implement BasicNotifier</b><br>Create class <code>BasicNotifier</code> as a simple implementation.",
+      "step3": "<b>Step 3: Create NotifierDecorator</b><br>Abstract decorator that implements <code>Notifier</code> and wraps another notifier.",
+      "step4": "<b>Step 4: Implement SmsNotifier</b><br>Concrete decorator that adds SMS sending functionality.",
+      "step5": "<b>Step 5: Implement EmailNotifier</b><br>Concrete decorator that adds Email sending functionality.",
+      "step6": "<b>Step 6: Use in Component</b><br>Wrap notifiers and demonstrate extended functionality in <code>DecoratorComponent</code>."
     }
   }
 }
