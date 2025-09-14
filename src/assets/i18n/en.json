@@ -96,6 +96,13 @@
       "step3": "<b>Step 3: Create Subtitles</b><br>Class <code>Subtitles</code> loads subtitle files.",
       "step4": "<b>Step 4: Implement MediaFacade</b><br>Encapsulate video, audio, and subtitles into <code>MediaFacade</code> with a simple <code>playMovie()</code> method.",
       "step5": "<b>Step 5: Use in Component</b><br>Demonstrate usage of <code>MediaFacade</code> in <code>FacadeComponent</code>."
+    },
+    "flyweight": {
+      "title": "Flyweight",
+      "description": "<b>Flyweight</b> — structural design pattern that minimizes memory usage by sharing common parts of objects instead of duplicating them. <br><br>It is useful when working with a large number of similar objects.",
+      "step1": "<b>Step 1: Create Character class</b><br>Class <code>Character</code> stores intrinsic data (symbol, font) and provides a <code>display()</code> method.",
+      "step2": "<b>Step 2: Implement CharacterFactory</b><br>Factory ensures that characters with the same symbol and font are reused instead of being recreated.",
+      "step3": "<b>Step 3: Use in Component</b><br>Demonstrate <code>Flyweight</code> in <code>FlyweightComponent</code> by rendering text with shared characters."
     }
   }
 }

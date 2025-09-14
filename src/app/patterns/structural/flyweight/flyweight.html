@@ -1,1 +1,10 @@
-<p>flyweight works!</p>
+<section class="p-container">
+  <h2 class="p-title-h2">{{ 'structural.flyweight.title' | transloco }}</h2>
+  <div class="main-description" [innerHTML]="'structural.flyweight.description' | transloco"></div>
+  @for (preview of previewData(); track $index) {
+    <app-code-preview [code]="preview.file"
+                      [fileName]="preview.fileName"
+                      [description]="preview.previewDescription"
+    />
+  }
+</section>
