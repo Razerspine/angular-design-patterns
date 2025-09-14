@@ -87,6 +87,15 @@
       "step4": "<b>Step 4: Implement SmsNotifier</b><br>Concrete decorator that adds SMS sending functionality.",
       "step5": "<b>Step 5: Implement EmailNotifier</b><br>Concrete decorator that adds Email sending functionality.",
       "step6": "<b>Step 6: Use in Component</b><br>Wrap notifiers and demonstrate extended functionality in <code>DecoratorComponent</code>."
+    },
+    "facade": {
+      "title": "Facade",
+      "description": "<b>Facade</b> — structural design pattern that provides a simplified interface to a complex subsystem. <br><br>It hides the complexity of multiple classes and exposes only what is necessary for the client.",
+      "step1": "<b>Step 1: Create VideoPlayer</b><br>Class <code>VideoPlayer</code> handles video playback.",
+      "step2": "<b>Step 2: Create AudioPlayer</b><br>Class <code>AudioPlayer</code> handles audio playback.",
+      "step3": "<b>Step 3: Create Subtitles</b><br>Class <code>Subtitles</code> loads subtitle files.",
+      "step4": "<b>Step 4: Implement MediaFacade</b><br>Encapsulate video, audio, and subtitles into <code>MediaFacade</code> with a simple <code>playMovie()</code> method.",
+      "step5": "<b>Step 5: Use in Component</b><br>Demonstrate usage of <code>MediaFacade</code> in <code>FacadeComponent</code>."
     }
   }
 }
