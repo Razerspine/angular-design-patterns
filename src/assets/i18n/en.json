@@ -69,6 +69,14 @@
       "step4": "<b>Step 4: Define Abstraction (Message)</b><br>Create abstract <code>Message</code> class that holds a reference to <code>MessageImplementor</code> and declares <code>send(content: string)</code>.",
       "step5": "<b>Step 5: Implement Refined Abstraction</b><br>Implement <code>UserMessage</code> (or other concrete abstractions) that use the implementor to deliver messages.",
       "step6": "<b>Step 6: Use in Component</b><br>In <code>BridgeComponent</code> instantiate concrete implementor(s) and pass them into the abstraction to send messages (demonstrate switching implementations)."
+    },
+    "composite": {
+      "title": "Composite",
+      "description": "<b>Composite</b> — structural design pattern that lets you compose objects into tree structures and work with these structures as if they were individual objects. <br><br>This pattern is often used to represent part-whole hierarchies (e.g., UI elements, file system).",
+      "step1": "<b>Step 1: Define Component interface</b><br>Create <code>Component</code> with <code>operation()</code>.",
+      "step2": "<b>Step 2: Implement Leaf</b><br>Create <code>Leaf</code> class that implements <code>Component</code> and represents indivisible objects.",
+      "step3": "<b>Step 3: Implement Composite</b><br>Create <code>Composite</code> class that stores children and implements <code>operation()</code> by delegating to them.",
+      "step4": "<b>Step 4: Use in Component</b><br>Build a tree of <code>Leaf</code> and <code>Composite</code> objects and call <code>operation()</code>."
     }
   }
 }
