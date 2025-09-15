@@ -5,3 +5,4 @@ export * from './mediator-config';
 export * from './memento-config';
 export * from './observer-config';
 export * from './state-config';
+export * from './strategy-config';

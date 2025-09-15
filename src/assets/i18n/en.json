@@ -168,6 +168,14 @@
       "step2": "<b>Step 2: Implement Concrete States</b><br>Create <code>PlayingState</code>, <code>PausedState</code>, and <code>StoppedState</code> to define specific behaviors.",
       "step3": "<b>Step 3: Implement Context</b><br>Holds a reference to the current state and delegates behavior to it.",
       "step4": "<b>Step 4: Use State Pattern in Component</b><br>Switch between different states (play, pause, stop) dynamically."
+    },
+    "strategy": {
+      "title": "Strategy",
+      "description": "<b>Strategy</b> — behavioral design pattern that defines a family of algorithms, encapsulates each one, and makes them interchangeable. It lets the algorithm vary independently from clients that use it.",
+      "step1": "<b>Step 1: Define Strategy interface</b><br>Declare the <code>execute(a, b)</code> method as a common contract for all algorithms.",
+      "step2": "<b>Step 2: Implement Concrete Strategies</b><br>Create <code>AddStrategy</code>, <code>SubtractStrategy</code>, and <code>MultiplyStrategy</code> implementing specific algorithms.",
+      "step3": "<b>Step 3: Implement Context</b><br>The <code>CalculatorContext</code> stores a reference to a strategy and delegates the calculation to it.",
+      "step4": "<b>Step 4: Use Strategy Pattern in Component</b><br>Switch between strategies dynamically using buttons in Angular."
     }
   }
 }
