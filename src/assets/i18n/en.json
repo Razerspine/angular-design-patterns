@@ -121,6 +121,14 @@
       "step2": "<b>Step 2: Create BaseHandler</b><br>Implements default chaining behavior.",
       "step3": "<b>Step 3: Implement Concrete Handlers</b><br>AuthHandler, LoggingHandler, and DataHandler handle different requests.",
       "step4": "<b>Step 4: Use in Component</b><br>Demonstrates request processing through the chain."
+    },
+    "command": {
+      "title": "Command",
+      "description": "<b>Command</b> — behavioral design pattern that turns a request into a standalone object containing all information about the request. This allows you to parameterize objects with operations, delay execution, and support undo/redo.",
+      "step1": "<b>Step 1: Define Command interface</b><br>Declares the <code>execute()</code> method.",
+      "step2": "<b>Step 2: Create Concrete Commands</b><br>TurnOnLightCommand and TurnOffLightCommand encapsulate actions for the Light.",
+      "step3": "<b>Step 3: Implement Invoker</b><br>RemoteControl stores commands and executes them on demand.",
+      "step4": "<b>Step 4: Use in Component</b><br>Demonstrates queuing and executing commands through the RemoteControl."
     }
   }
 }
