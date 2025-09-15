@@ -176,6 +176,13 @@
       "step2": "<b>Step 2: Implement Concrete Strategies</b><br>Create <code>AddStrategy</code>, <code>SubtractStrategy</code>, and <code>MultiplyStrategy</code> implementing specific algorithms.",
       "step3": "<b>Step 3: Implement Context</b><br>The <code>CalculatorContext</code> stores a reference to a strategy and delegates the calculation to it.",
       "step4": "<b>Step 4: Use Strategy Pattern in Component</b><br>Switch between strategies dynamically using buttons in Angular."
+    },
+    "templateMethod": {
+      "title": "Template Method",
+      "description": "<b>Template Method</b> — behavioral design pattern that defines the skeleton of an algorithm in an operation, deferring some steps to subclasses. It lets subclasses redefine certain steps without changing the algorithm's structure.",
+      "step1": "<b>Step 1: Define Abstract Class</b><br>Create <code>DataProcessor</code> with the <code>process()</code> template method.",
+      "step2": "<b>Step 2: Implement Concrete Classes</b><br>Implement <code>CsvDataProcessor</code> and <code>ApiDataProcessor</code> for different data sources.",
+      "step3": "<b>Step 3: Use Template Method in Component</b><br>Execute the same algorithm with different subclasses in Angular."
     }
   }
 }
