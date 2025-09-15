@@ -160,6 +160,14 @@
       "step2": "<b>Step 2: Implement Subject</b><br>Manages observers and notifies them of changes.",
       "step3": "<b>Step 3: Create ConcreteObserver</b><br>Implements the <code>update()</code> method to react to state changes.",
       "step4": "<b>Step 4: Use Observer Pattern in Component</b><br>Create multiple observers, attach them to a subject, and demonstrate updates."
+    },
+    "state": {
+      "title": "State",
+      "description": "<b>State</b> — behavioral design pattern that allows an object to change its behavior when its internal state changes. The object appears to change its class.",
+      "step1": "<b>Step 1: Define State interface</b><br>Declares the <code>handle()</code> method to represent behavior in different states.",
+      "step2": "<b>Step 2: Implement Concrete States</b><br>Create <code>PlayingState</code>, <code>PausedState</code>, and <code>StoppedState</code> to define specific behaviors.",
+      "step3": "<b>Step 3: Implement Context</b><br>Holds a reference to the current state and delegates behavior to it.",
+      "step4": "<b>Step 4: Use State Pattern in Component</b><br>Switch between different states (play, pause, stop) dynamically."
     }
   }
 }
