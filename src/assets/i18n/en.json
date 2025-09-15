@@ -112,5 +112,15 @@
       "step3": "<b>Step 3: Implement VideoServiceProxy</b><br>Adds caching functionality and delegates playback to RealVideoService when needed.",
       "step4": "<b>Step 4: Use in Component</b><br>Demonstrates caching when the same video is played multiple times."
     }
+  },
+  "behavioral": {
+    "chainOfResponsibility": {
+      "title": "Chain of Responsibility",
+      "description": "<b>Chain of Responsibility</b> — behavioral design pattern that lets you pass requests along a chain of handlers. Each handler decides either to process the request or pass it to the next handler in the chain.",
+      "step1": "<b>Step 1: Define Handler interface</b><br>Declares methods for setting the next handler and processing a request.",
+      "step2": "<b>Step 2: Create BaseHandler</b><br>Implements default chaining behavior.",
+      "step3": "<b>Step 3: Implement Concrete Handlers</b><br>AuthHandler, LoggingHandler, and DataHandler handle different requests.",
+      "step4": "<b>Step 4: Use in Component</b><br>Demonstrates request processing through the chain."
+    }
   }
 }
