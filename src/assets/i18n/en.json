@@ -129,6 +129,13 @@
       "step2": "<b>Step 2: Create Concrete Commands</b><br>TurnOnLightCommand and TurnOffLightCommand encapsulate actions for the Light.",
       "step3": "<b>Step 3: Implement Invoker</b><br>RemoteControl stores commands and executes them on demand.",
       "step4": "<b>Step 4: Use in Component</b><br>Demonstrates queuing and executing commands through the RemoteControl."
+    },
+    "iterator": {
+      "title": "Iterator",
+      "description": "<b>Iterator</b> — behavioral design pattern that provides a way to sequentially access elements of a collection without exposing its internal structure.",
+      "step1": "<b>Step 1: Define Iterator Interface</b><br>Declares <code>next()</code> and <code>hasNext()</code> methods.",
+      "step2": "<b>Step 2: Implement Concrete Iterator</b><br>Create <code>NameIterator</code> and <code>NameCollection</code> to manage iteration logic.",
+      "step3": "<b>Step 3: Use Iterator in Component</b><br>Traverse a collection of names and display them in the UI."
     }
   }
 }
