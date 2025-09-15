@@ -7,3 +7,4 @@ export * from './observer-config';
 export * from './state-config';
 export * from './strategy-config';
 export * from './template-method-config';
+export * from './visitor-config';

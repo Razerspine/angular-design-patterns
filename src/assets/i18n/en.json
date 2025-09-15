@@ -183,6 +183,14 @@
       "step1": "<b>Step 1: Define Abstract Class</b><br>Create <code>DataProcessor</code> with the <code>process()</code> template method.",
       "step2": "<b>Step 2: Implement Concrete Classes</b><br>Implement <code>CsvDataProcessor</code> and <code>ApiDataProcessor</code> for different data sources.",
       "step3": "<b>Step 3: Use Template Method in Component</b><br>Execute the same algorithm with different subclasses in Angular."
+    },
+    "visitor": {
+      "title": "Visitor",
+      "description": "<b>Visitor</b> — behavioral design pattern that lets you separate algorithms from the objects on which they operate. It allows adding new operations without changing the classes of the elements.",
+      "step1": "<b>Step 1: Define Interfaces</b><br>Create <code>Visitor</code> and <code>Visitable</code>.",
+      "step2": "<b>Step 2: Implement Elements</b><br>Create <code>Book</code> and <code>Movie</code> as visitable objects.",
+      "step3": "<b>Step 3: Implement Visitors</b><br>Create <code>PriceVisitor</code> and <code>RatingVisitor</code>.",
+      "step4": "<b>Step 4: Use Visitor in Angular Component</b><br>Demonstrate different operations on the same set of objects."
     }
   }
 }
