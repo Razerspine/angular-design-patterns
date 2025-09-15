@@ -152,6 +152,14 @@
       "step2": "<b>Step 2: Implement Originator</b><br>Stores internal state and creates/restores mementos.",
       "step3": "<b>Step 3: Implement Caretaker</b><br>Manages mementos and retrieves them when needed.",
       "step4": "<b>Step 4: Use Memento in Component</b><br>Save multiple states and restore them to demonstrate rollback."
+    },
+    "observer": {
+      "title": "Observer",
+      "description": "<b>Observer</b> — behavioral design pattern that defines a one-to-many dependency between objects, so when one object changes state, all its dependents are notified automatically.",
+      "step1": "<b>Step 1: Define Observer interface</b><br>Declares the <code>update()</code> method for receiving state changes.",
+      "step2": "<b>Step 2: Implement Subject</b><br>Manages observers and notifies them of changes.",
+      "step3": "<b>Step 3: Create ConcreteObserver</b><br>Implements the <code>update()</code> method to react to state changes.",
+      "step4": "<b>Step 4: Use Observer Pattern in Component</b><br>Create multiple observers, attach them to a subject, and demonstrate updates."
     }
   }
 }
