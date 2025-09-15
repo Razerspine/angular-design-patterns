@@ -144,6 +144,14 @@
       "step2": "<b>Step 2: Implement Concrete Mediator</b><br>Create <code>ChatMediatorService</code> to manage communication between users.",
       "step3": "<b>Step 3: Create User Class</b><br>Implement <code>ChatUser</code> that interacts through the mediator instead of direct references.",
       "step4": "<b>Step 4: Use Mediator in Component</b><br>Demonstrate chat interaction where users exchange messages via the mediator."
+    },
+    "memento": {
+      "title": "Memento",
+      "description": "<b>Memento</b> — behavioral design pattern that allows saving and restoring an object’s previous state without exposing its implementation details.",
+      "step1": "<b>Step 1: Create Memento class</b><br>Encapsulates the state of the Originator.",
+      "step2": "<b>Step 2: Implement Originator</b><br>Stores internal state and creates/restores mementos.",
+      "step3": "<b>Step 3: Implement Caretaker</b><br>Manages mementos and retrieves them when needed.",
+      "step4": "<b>Step 4: Use Memento in Component</b><br>Save multiple states and restore them to demonstrate rollback."
     }
   }
 }
