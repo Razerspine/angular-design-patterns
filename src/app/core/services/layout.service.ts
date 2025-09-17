@@ -7,6 +7,13 @@ export class LayoutService {
   menuIsActive: WritableSignal<boolean> = signal(false);
 
   toggleMenu(): void {
-    this.menuIsActive.update(value => !value);
+    const newValue = !this.menuIsActive();
+    this.menuIsActive.set(newValue);
+    const body = document.body;
+    if (newValue) {
+      body.classList.add('block-scroll');
+    } else {
+      body.classList.remove('block-scroll');
+    }
   }
 }

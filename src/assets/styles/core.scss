@@ -19,9 +19,19 @@ body {
   letter-spacing: 0.01em;
   margin: 0;
   padding: 0;
+  width: 100%;
   min-height: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  &.block-scroll {
+    @media screen and (max-width: 991px) {
+      position: fixed;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+    }
+  }
 }
 
 .p-title-h2 {

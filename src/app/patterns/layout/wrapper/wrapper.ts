@@ -22,8 +22,10 @@ export class Wrapper {
 
   constructor() {
     this.router.events.subscribe((event) => {
+      const body = document.body;
       if (event instanceof NavigationStart) {
         this.layoutService.menuIsActive.set(false);
+        body.classList.remove('block-scroll');
       }
     })
   }
