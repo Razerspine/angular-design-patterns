@@ -72,3 +72,9 @@
     opacity: 1;
   }
 }
+
+.gradient-text {
+  background: linear-gradient(to right, #e60076, #9810fa, #4f39f6);
+  -webkit-background-clip: text;
+  color: transparent;
+}

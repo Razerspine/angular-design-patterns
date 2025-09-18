@@ -40,6 +40,7 @@
     }
 
     .card {
+      color: var(--code-color);
       border: 1px solid var(--surface-border);
       border-radius: var(--content-border-radius);
       display: flex;
@@ -48,6 +49,7 @@
       justify-content: center;
       width: 100%;
       padding: 3rem 1rem;
+      text-decoration: none;
 
       @media screen and (min-width: 768px) {
         width: calc(50% - 1rem);
@@ -82,5 +84,17 @@
         }
       }
     }
+  }
+
+  .pink-icon {
+    color: #f6339a;
+  }
+
+  .blue-icon {
+    color: #2b7fff;
+  }
+
+  .green-icon {
+    color: #00c951;
   }
 }
