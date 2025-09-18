@@ -30,12 +30,10 @@
     "@angular/router": "^20.2.3",
     "@ngneat/transloco": "^6.0.4",
     "@primeuix/themes": "^1.2.3",
-    "@tailwindcss/postcss": "^4.1.12",
     "ngx-highlightjs": "^14.0.1",
     "primeicons": "^7.0.0",
     "primeng": "^20.1.1",
     "rxjs": "~7.8.0",
-    "tailwindcss-primeui": "^0.6.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
   },
@@ -50,7 +48,6 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "tailwindcss": "^4.1.12",
     "typescript": "~5.8.2"
   }
 }
