@@ -2,46 +2,46 @@ import {MenuItem} from 'primeng/api';
 
 export const BEHAVIORAL_MENU_CONFIG: MenuItem[] = [
   {
-    label: 'Behavioral Patterns',
+    label: 'categories.behavioralPatterns',
     items: [
       {
-        label: 'Chain of Responsibility',
+        label: 'names.chainOfResponsibility',
         routerLink: ['/behavioral/chain-of-responsibility']
       },
       {
-        label: 'Command',
+        label: 'names.command',
         routerLink: ['/behavioral/command']
       },
       {
-        label: 'Iterator',
+        label: 'names.iterator',
         routerLink: ['/behavioral/iterator']
       },
       {
-        label: 'Mediator',
+        label: 'names.mediator',
         routerLink: ['/behavioral/mediator']
       },
       {
-        label: 'Memento',
+        label: 'names.memento',
         routerLink: ['/behavioral/memento']
       },
       {
-        label: 'Observer',
+        label: 'names.observer',
         routerLink: ['/behavioral/observer']
       },
       {
-        label: 'State',
+        label: 'names.state',
         routerLink: ['/behavioral/state']
       },
       {
-        label: 'Strategy',
+        label: 'names.strategy',
         routerLink: ['/behavioral/strategy']
       },
       {
-        label: 'Template Method',
+        label: 'names.templateMethod',
         routerLink: ['/behavioral/template-method']
       },
       {
-        label: 'Visitor',
+        label: 'names.visitor',
         routerLink: ['/behavioral/visitor']
       }
     ]

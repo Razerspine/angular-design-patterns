@@ -2,34 +2,34 @@ import {MenuItem} from 'primeng/api';
 
 export const STRUCTURAL_MENU_CONFIG: MenuItem[] = [
   {
-    label: 'Structural Patterns',
+    label: 'categories.structuralPatterns',
     items: [
       {
-        label: 'Adapter',
+        label: 'names.adapter',
         routerLink: ['/structural/adapter']
       },
       {
-        label: 'Bridge',
+        label: 'names.bridge',
         routerLink: ['/structural/bridge']
       },
       {
-        label: 'Composite',
+        label: 'names.composite',
         routerLink: ['/structural/composite']
       },
       {
-        label: 'Decorator',
+        label: 'names.decorator',
         routerLink: ['/structural/decorator']
       },
       {
-        label: 'Facade',
+        label: 'names.facade',
         routerLink: ['/structural/facade']
       },
       {
-        label: 'Flyweight',
+        label: 'names.flyweight',
         routerLink: ['/structural/flyweight']
       },
       {
-        label: 'Proxy',
+        label: 'names.proxy',
         routerLink: ['/structural/proxy']
       }
     ]

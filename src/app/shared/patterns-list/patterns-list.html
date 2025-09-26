@@ -2,13 +2,13 @@
   @for (list of data(); track list) {
     <section class="p-container">
       <h2 class="p-title gradient-text">
-        {{ list.label }}
+        {{ list.label | transloco }}
       </h2>
       @if (list.items) {
         <div class="p-list">
           @for (item of list.items; track item) {
             <a class="p-item" [routerLink]="item.routerLink">
-              {{ item.label }}
+              {{ item.label | transloco }}
             </a>
           }
         </div>

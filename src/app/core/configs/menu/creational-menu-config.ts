@@ -2,27 +2,27 @@ import {MenuItem} from 'primeng/api';
 
 export const CREATIONAL_MENU_CONFIG: MenuItem[] = [
   {
-    label: 'Creational Patterns',
+    label: 'categories.creationalPatterns',
     items: [
       {
-        label: 'Factory Method',
+        label: 'names.factoryMethod',
         routerLink: ['/creational/factory']
       },
       {
-        label: 'Abstract Factory',
+        label: 'names.abstractFactory',
         routerLink: ['/creational/abstract-factory']
 
       },
       {
-        label: 'Builder',
+        label: 'names.builder',
         routerLink: ['/creational/builder']
       },
       {
-        label: 'Prototype',
+        label: 'names.prototype',
         routerLink: ['/creational/prototype']
       },
       {
-        label: 'Singleton',
+        label: 'names.singleton',
         routerLink: ['/creational/singleton']
       }
     ]

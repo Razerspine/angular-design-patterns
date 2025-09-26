@@ -5,11 +5,14 @@ import {MenuItem} from 'primeng/api';
 import {MENU_CONFIG} from '@core/configs/menu';
 import {Button} from 'primeng/button';
 import {LayoutService} from '@core/services/layout.service';
+import {TranslocoPipe} from '@ngneat/transloco';
+import {Ripple} from 'primeng/ripple';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-sidebar',
   standalone: true,
-  imports: [CommonModule, Menu, Button],
+  imports: [CommonModule, Menu, Button, TranslocoPipe, Ripple, RouterLink],
   templateUrl: './sidebar.html',
   styleUrl: './sidebar.scss'
 })

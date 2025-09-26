@@ -3,6 +3,15 @@
     <p-button icon="pi pi-times" class="close-button" text severity="secondary" (click)="toggleMenu()"/>
   </div>
   <div class="menu-wrapper">
-    <p-menu [model]="items"/>
+    <p-menu [model]="items">
+      <ng-template #submenuheader let-item>
+        <span class="text-primary font-bold">{{ item.label | transloco }}</span>
+      </ng-template>
+      <ng-template #item let-item>
+        <a pRipple [routerLink]="item.routerLink" class="flex items-center p-menu-item-link">
+          <span class="ml-2">{{ item.label | transloco }}</span>
+        </a>
+      </ng-template>
+    </p-menu>
   </div>
 </div>
