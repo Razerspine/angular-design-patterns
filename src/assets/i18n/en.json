@@ -1,4 +1,34 @@
 {
+  "mainPageTitle": "GoF Design Patterns in Angular",
+  "categories": {
+    "creationalPatterns": "Creational Patterns",
+    "structuralPatterns": "Structural Patterns",
+    "behavioralPatterns": "Behavioral Patterns"
+  },
+  "names": {
+    "factoryMethod": "Factory Method",
+    "abstractFactory": "Abstract Factory",
+    "builder": "Builder",
+    "prototype": "Prototype",
+    "singleton": "Singleton",
+    "adapter": "Adapter",
+    "bridge": "Bridge",
+    "composite": "Composite",
+    "decorator": "Decorator",
+    "facade": "Facade",
+    "flyweight": "Flyweight",
+    "proxy": "Proxy",
+    "chainOfResponsibility": "Chain of Responsibility",
+    "command": "Command",
+    "iterator": "Iterator",
+    "mediator": "Mediator",
+    "memento": "Memento",
+    "observer": "Observer",
+    "state": "State",
+    "strategy": "Strategy",
+    "templateMethod": "Template Method",
+    "visitor": "Visitor"
+  },
   "creational": {
     "factory": {
       "title": "Factory Method",

@@ -1,4 +1,34 @@
 {
+  "mainPageTitle": "Патерни проектування GoF в Angular",
+  "categories": {
+    "creationalPatterns": "Породжувальні патерни",
+    "structuralPatterns": "Структурні патерни",
+    "behavioralPatterns": "Поведінкові патерни"
+  },
+  "names": {
+    "factoryMethod": "Фабричний метод",
+    "abstractFactory": "Абстрактна фабрика",
+    "builder": "Будівельник",
+    "prototype": "Прототип",
+    "singleton": "Одинак",
+    "adapter": "Адаптер",
+    "bridge": "Міст",
+    "composite": "Компонувальник",
+    "decorator": "Декоратор",
+    "facade": "Фасад",
+    "flyweight": "Легковаговик",
+    "proxy": "Замісник",
+    "chainOfResponsibility": "Ланцюжок обов'язків",
+    "command": "Команда",
+    "iterator": "Ітератор",
+    "mediator": "Посередник",
+    "memento": "Знімок",
+    "observer": "Спостерігач",
+    "state": "Стан",
+    "strategy": "Стратегія",
+    "templateMethod": "Шаблонний метод",
+    "visitor": "Відвідувач"
+  },
   "creational": {
     "factory": {
       "title": "Фабричний метод",
